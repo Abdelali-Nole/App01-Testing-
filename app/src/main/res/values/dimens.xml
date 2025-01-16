@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_rv_margin_start">10dp</dimen>
+    <dimen name="main_fb_margin">20dp</dimen>
+    <dimen name="main_fb_margin_button">20dp</dimen>
+    <dimen name="car_elev">10dp</dimen>
+    <dimen name="card_radius">10dp</dimen>
+
+
+
+    <dimen name="modelDim">25sp</dimen>
+    <dimen name="colorDim">20sp</dimen>
+    <dimen name="distancePerLitterDim">20sp</dimen>
+
+    <dimen name="drawblePadding">10dp</dimen>
+
+    <dimen name="modelMargeFromImage">25dp</dimen>
+
+    <dimen name="linearMargeFromDescriptionAndModel">25dp</dimen>
+
+    <dimen name="add_update_texSizeEditText">20sp</dimen>
+
+    <dimen name="add_update_drawblePadding">15dp</dimen>
+
+    <dimen name="add_update_fbtn_margin">20dp</dimen>
+    <dimen name="car_info_image_width">250dp</dimen>
+    <dimen name="car_info_image_hight">250dp</dimen>
+    <dimen name="car_info_model_margin_start">15dp</dimen>
+    <dimen name="car_info_descr_margin_start">15dp</dimen>
+    <dimen name="car_info_linear_layoutmargin_start">15dp</dimen>
+    <dimen name="car_info_linear_layout_margin_bouttom">15dp</dimen>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menu_main_editTextLayoutID"
+        app:actionLayout="@layout/edittextusedintoolbar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_main_searchID"
+        android:title="Search"
+        android:icon="@drawable/baseline_search_24"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/menu_main_clearID"
+        android:title="Clear"
+        android:icon="@drawable/baseline_clear_24"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/menu_main_cheronID"
+        android:icon="@drawable/baseline_chevron_right_24"
+        app:showAsAction="always" />
+
+
+
+
+</menu>

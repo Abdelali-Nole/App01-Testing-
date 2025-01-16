@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardElevation="@dimen/car_elev"
+    android:background="@drawable/shape_of_car_info"
+
+    android:layout_gravity="center"
+    app:cardCornerRadius="@dimen/card_radius"
+    app:cardUseCompatPadding="true">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/carInfo_imv_carID"
+        android:layout_width="@dimen/car_info_image_width"
+        android:layout_height="@dimen/car_info_image_hight"
+        android:layout_gravity="center"
+        android:src="@drawable/woman" />
+
+    <TextView
+        android:id="@+id/carInfo_tv_modelID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/modelDim"
+        android:layout_marginStart="@dimen/car_info_model_margin_start"
+        android:layout_marginTop="@dimen/modelMargeFromImage"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/carInfo_tv_descriptionID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/modelDim"
+        android:layout_marginStart="@dimen/car_info_descr_margin_start"
+
+        android:text="TextView" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/linearMargeFromDescriptionAndModel"
+        android:layout_marginStart="@dimen/car_info_linear_layoutmargin_start"
+        android:layout_marginBottom="@dimen/car_info_linear_layout_margin_bouttom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/carInfo_tv_colorID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/baseline_color_lens_24"
+            android:drawablePadding="@dimen/drawblePadding"
+            android:textSize="@dimen/colorDim"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/carInfo_tv_distancePerLitterID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="@dimen/drawblePadding"
+            android:drawableStart="@drawable/baseline_social_distance_24"
+            android:textSize="@dimen/distancePerLitterDim"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

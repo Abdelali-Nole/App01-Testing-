@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppProject01"
+    tools:context=".add_update"
+    android:fitsSystemWindows="true">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:fitsSystemWindows="true">
+
+
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="@color/design_default_color_primary_variant"
+
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/woman"
+                android:id="@+id/Add_Update_iv_ImageID"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+            </ImageView>
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:fitsSystemWindows="true"
+                app:layout_collapseMode="pin"
+                app:title="Edit Update Car"
+                android:id="@+id/Add_Update_tb_TolbarID"/>
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:clipToPadding="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Add_Update_ev_modelID"
+                android:hint="Model"
+                android:drawableStart="@drawable/model_24"
+                android:drawablePadding="@dimen/add_update_drawblePadding"
+                android:layout_gravity="center"
+                android:textSize="@dimen/add_update_texSizeEditText"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Add_Update_ev_colorID"
+                android:hint="Color"
+                android:drawableStart="@drawable/color_24"
+                android:drawablePadding="@dimen/add_update_drawblePadding"
+                android:layout_gravity="center"
+                android:textSize="@dimen/add_update_texSizeEditText"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Add_Update_ev_dplID"
+                android:hint="Distance Per Litter"
+                android:drawableStart="@drawable/baseline_social_distance_24"
+                android:drawablePadding="@dimen/add_update_drawblePadding"
+                android:layout_gravity="center"
+                android:textSize="@dimen/add_update_texSizeEditText"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Add_Update_ev_descriptionID"
+                android:hint="Description"
+                android:drawableStart="@drawable/description_24"
+                android:drawablePadding="@dimen/add_update_drawblePadding"
+                android:layout_gravity="center"
+                android:textSize="@dimen/add_update_texSizeEditText"/>
+
+        </LinearLayout>
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/add_update_fbtn_margin">
+
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
