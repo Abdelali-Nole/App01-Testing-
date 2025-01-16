@@ -23,7 +23,7 @@ public class clsVehicle {
 
     }
 
-    // just to test git 
+    // just to test git
     public String  TestGitChanged(){
         return "just for test";
     }
