@@ -29,10 +29,6 @@ public class clsVehicle {
     }
 
 
-    // just to test git
-    public String  TestGitChanged(){
-        return "just for test";
-    }
 
     public clsVehicle( String model, String color,Double dpl,String image,String descr) {
         this.model = model;
