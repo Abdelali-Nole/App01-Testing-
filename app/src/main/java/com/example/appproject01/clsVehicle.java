@@ -23,6 +23,12 @@ public class clsVehicle {
 
     }
 
+    // just to test git at branch
+    public String  TestGitChangedAtBranch01(){
+        return "just for test brach project";
+    }
+
+
     // just to test git
     public String  TestGitChanged(){
         return "just for test";
