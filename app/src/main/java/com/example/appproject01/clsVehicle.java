@@ -29,6 +29,10 @@ public class clsVehicle {
     }
 
 
+      // just to test gitHup at branch03
+    public String  TestGitChangedAtBranch03FromGitHup(){
+        return "just for test brach03 at githup project";
+    }
 
     public clsVehicle( String model, String color,Double dpl,String image,String descr) {
         this.model = model;
